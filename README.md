@@ -14,6 +14,13 @@ yarn serve
 ```
 yarn build
 ```
+### 安装scss
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+    npm i  node-sass sass-loader -D
+
+### 组件
+
+    1、人脸核身拍照组件--camera
+    
+    2、身份证上传组件--idUpload
+

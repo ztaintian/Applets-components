@@ -59,7 +59,7 @@ class FaceScan {
   drawCameraDecoration(ctx) {
     const { width } = this.canvasInfo;
     const { offsetTop, centerX, centerY } = this.cameraInfo;
-
+    
     const dwidth = 1;
     const dheight = 5;
     const x = (width - dwidth) / 2;
@@ -82,6 +82,7 @@ class FaceScan {
     const { width: canvasWidth } = this.canvasInfo;
     const { offsetTop, radius } = this.cameraInfo;
     const text = '请将正脸面向屏幕';
+    console.log(offsetTop, radius)
     ctx.font = '18px sans-serif';
     const { width } = ctx.measureText(text);
     const y = offsetTop + radius * 2 + 60;
