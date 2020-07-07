@@ -11,7 +11,7 @@
     <!-- <ul>
       <li>姓名：朱元璋</li>
       <li>身份证号：11011010010101010</li>
-    </ul> -->
+    </ul>-->
     <div class="title">请您上传：身份证反面照</div>
     <div
       @click="uploadImg('imgUrl2')"
@@ -22,7 +22,7 @@
     </div>
     <!-- <ul>
       <li>证件有效期：2012/02/03--2055/02/03</li>
-    </ul> -->
+    </ul>-->
     <div class="common-btn mt60" @click="authentication">保存确认</div>
     <canvas canvas-id="front" class="canvas-css"></canvas>
   </div>
@@ -121,7 +121,7 @@ export default {
   ul {
     width: 600rpx;
     margin: 0 auto;
-    color: #ABABAB;
+    color: #ababab;
     li {
       line-height: 60rpx;
       font-size: 30rpx;
@@ -137,8 +137,20 @@ export default {
     height: 300rpx;
     .iconfont {
       font-size: 40rpx;
-      color: #109CEE;
+      color: #109cee;
     }
+  }
+  .common-btn {
+    width: 600rpx;
+    color: #fff;
+    text-align: center;
+    margin: 60rpx auto 0;
+    font-size: 30rpx;
+    background: #409eff;
+    height: 80rpx;
+    line-height: 80rpx;
+    border-radius: 50rpx;
+    font-weight: bold;
   }
 }
 </style>
